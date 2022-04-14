@@ -38,6 +38,9 @@ p {
   font-size: 16px;
   padding-top: 10px;
 }
+a {
+  text-decoration: none;
+}
 .links {
   display: block;
   padding: 20px 40px;
