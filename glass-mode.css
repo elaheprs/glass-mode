@@ -39,13 +39,21 @@ p {
   padding-top: 10px;
 }
 .links {
-  padding-top: 20px;
+  display: block;
+  padding: 20px 40px;
 }
-.links a:hover {
+a:hover {
   color: black;
 }
 .links a:hover .fa-stack-1x {
-  color: blue;
+  color: rgb(9, 118, 234);
+}
+a span {
+  color: #551a8b;
+}
+a span:hover {
+  color: rgb(22, 22, 22);
+  transition: 800ms;
 }
 .btn {
   text-decoration: none;
@@ -55,4 +63,9 @@ p {
   padding: 3px 10px;
   display: inline-block;
   margin-top: 10px;
+}
+.btn:hover {
+  background-color: rgb(20, 20, 20);
+  color: rgb(106, 172, 244);
+  transition: 300ms;
 }
